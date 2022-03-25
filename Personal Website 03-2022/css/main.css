@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&family=Ubuntu:wght@300&display=swap");
+body {
+  background-color: #cbced1;
+  margin: 0;
+  font-family: Ubuntu;
+}
+
+:root {
+  --primary-color: rgb(255, 174, 0);
+}
+
+.navBar {
+  background-color: black;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 4em;
+}
+
+.navBar .logo {
+  color: white;
+  font-weight: bold;
+  padding-top: 1.2em;
+  padding-left: 0.9em;
+  font-size: larger;
+}
+
+.navBar .logo:hover {
+  color: var(--primary-color);
+}
+
+.hero {
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+
+.hero .section-bio {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+  margin: 0 auto 0.3em auto;
+  padding: 0.9em;
+}
+
+.hero .hero-left {
+  width: 40%;
+  margin: 8em auto 0em;
+}
+
+@media screen {
+  .hero .hero-left {
+    min-width: 200px;
+    width: 20%;
+    height: auto;
+  }
+}
+
+section {
+  background-color: #0044ff;
+  margin-bottom: 0;
+}
+
+section .skill-set {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+section .skill-set h3 {
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+section .skill-set img {
+  width: 20%;
+  text-align: centers;
+  display: inline-block;
+}
+
+@media screen {
+  section .skill-set img {
+    max-width: 200px;
+    width: 20%;
+  }
+}
+
+section .skill-set li {
+  padding: 0.3em;
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 0.3em;
+}
+
+@media screen and (min-width: 600px) {
+  section .skill-set li {
+    font-size: 1.8em;
+    text-align: center;
+  }
+}
+
+.progress {
+  margin-top: -21px;
+  background-color: #cbced1;
+}
+
+.progress h4 {
+  padding-top: 1.5em;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress p {
+  font-size: 1.2em;
+  padding: 0.1em 1em 2em;
+}
+
+#section-contact {
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  margin-bottom: 0.5em;
+  color: white;
+  background-color: black;
+  margin-top: 0;
+}
+
+#section-contact h2 {
+  padding-top: 0.6em;
+}
+
+#section-contact input {
+  margin-bottom: 0.8em;
+  display: block;
+}
+
+#section-contact form {
+  display: block;
+  margin-bottom: 0.5em;
+}
+/*# sourceMappingURL=main.css.map */
